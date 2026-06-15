@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-bmw-blue: #0066bf;
+  --color-bmw-dark: #0a0a0a;
+  --color-bmw-navy: #080808;
+  --color-bmw-grey: #121212;
+  --color-bmw-m-blue: #0066bf;
+  --color-bmw-m-darkblue: #001f3f;
+  --color-bmw-m-red: #e31837;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #050505;
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+/* Custom gorgeous styling for scrollbars to match the Sophisticated concept */
+::-webkit-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0066bf;
+}
+
